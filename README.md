@@ -34,7 +34,7 @@ Users should be able to:
 I learnt about structuring content on the web page which is where the css width and max-width comes in handy for this project. What really stood out for me in this project was the clamp property which allows to reduce font size smoothly for smaller screens without using media queries.
 
 ```css
-proud-of-this-css html {
+proud-of-this-css {
   font-size: clamp(14px, 1vw, 24px);
 }
 
