@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: clamp(14px, 1vw, 24px);
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10rem 6rem;
+  background-color: hsl(47, 88%, 63%);
+}
+
+#illustrator {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#main h3 {
+  font-size: medium;
+  font-weight: 600;
+  text-align: center;
+  background-color: hsl(47, 88%, 63%);
+  width: 80px;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+#main h3:hover {
+  opacity: 0.8;
+}
+
+#main p {
+  margin-top: 0.4rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+#main {
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  width: 340px;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 3px 2px 0 3px #000;
+}
+
+.article-title {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.lead-paragraph {
+  color: hsl(0, 0%, 42%);
+}
+
+.author-profile {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+#author-image {
+  width: 30px;
+  height: 20px;
+}
+
+.author-name {
+  font-size: 1rem;
+  color: hsl(0, 0%, 7%);
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 7rem 3.5rem;
+  }
+
+  #main {
+    width: 250px;
+    margin: 0;
+  }
+}
